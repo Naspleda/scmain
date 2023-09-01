@@ -29,7 +29,7 @@ const Table = () => {
   return (
     <div className="container mx-auto pb-24">
         <div className='grid grid-cols-1 sm:grid-cols-2'>
-            <div className="flex space-beetween py-10">
+            <div className="flex space-beetween py-20 mx-4">
                 <input
                 type="text"
                 placeholder="Buscar por nombre"
@@ -38,9 +38,9 @@ const Table = () => {
                 className="px-4 py-2 border rounded-md"
                 />
             </div>
-            <div className="mb-4">
-                <label className="block mb-1">Filtrar por rango de fechas de nacimiento:</label>
-                <div className="flex space-beetween py-4">
+            <div className=" py-10">
+                <label className="block mb-1 mx-4">Filtrar por rango de fechas de nacimiento:</label>
+                <div className="flex space-beetween py-4 mx-4">
                 <input
                     type="date"
                     value={startDate}
@@ -65,7 +65,7 @@ const Table = () => {
             type="checkbox"
             checked={isGBA}
             onChange={() => setIsGBA(!isGBA)}
-            className="mr-2"
+            className="mr-2 mx-4"
           />
           Mostrar solo ubicación en GBA
         </label>

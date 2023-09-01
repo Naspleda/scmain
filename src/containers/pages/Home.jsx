@@ -1,7 +1,7 @@
 import Header from '../../components/Header.jsx'
 import Table from '../../components/Table.jsx'
 import Footer from '../../components/Footer.jsx'
-import Crud from '../../components/Crud.jsx'
+// import Crud from '../../components/Crud.jsx'
 
 function Home(){
     return(

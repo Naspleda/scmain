@@ -51,3 +51,55 @@ Windows:
 • Ejecutamos:
 
     npm run start
+
+
+
+
+
+
+
+# Funcionamiento
+
+Dentro de la carpeta src se encuentra la lógica del Frontend
+
+• src/containers/pages/Home.jsx
+
+Dentro de este archivo retornamos los componentes para ser vistos en pantalla
+
+Los componentes incluyen un Header, el componente Table es el que muestra la lista de personas en una tabla, y un Footer
+
+• src/components/
+
+# CRUD - React
+
+Creamos un component CRUD para traer la lógica del backend (No aplicado en esta versión, está comentado por si se quisiera ver el código)
+
+# CRUD - Django
+
+• backend_api/api/
+
+Aquí encontramos la lógica definida en el Backend:
+
+• models.py / Creamos el modelo Persona con los campos requeridos
+
+• serializers.py / Creamos el serializer del modelo Persona
+
+• urls.py / Definimos las urls para ser usadas como endpoint
+
+• views.py / Definimos la lógica correspondiente de CRUD
+
+# Software, librerías y framework utilizados
+
+• Django
+
+• Django REST Framework
+
+• SQLite
+
+(Versiones especificadas en 'requirements.txt')
+
+• React 
+
+• Redux
+
+• TailwindCSS
